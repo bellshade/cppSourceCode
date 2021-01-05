@@ -15,6 +15,17 @@
         "test",
         "code"
       ]
+    },
+    {
+      "login": "slowy07",
+      "name": "arfy slowy",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/40540262?v=4",
+      "profile": "https://allofsystem.blogspot.com",
+      "contributions": [
+        "infra",
+        "test",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
