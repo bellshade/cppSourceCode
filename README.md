@@ -1,9 +1,7 @@
 # cppSourceCode
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=for-the-badge)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![license](https://img.shields.io/apm/l/vim-mode?color=red&style=for-the-badge)
@@ -18,6 +16,7 @@
 <table>
   <tr>
     <td align="center"><a href="http://instagram.com/zulfikriry5"><img src="https://avatars3.githubusercontent.com/u/50226344?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Zulfikri Ramadhan Yoga</b></sub></a><br /><a href="#infra-ctrlbzul5" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/bellshade/cppSourceCode/commits?author=ctrlbzul5" title="Tests">⚠️</a> <a href="https://github.com/bellshade/cppSourceCode/commits?author=ctrlbzul5" title="Code">💻</a></td>
+    <td align="center"><a href="https://allofsystem.blogspot.com"><img src="https://avatars3.githubusercontent.com/u/40540262?v=4?s=100" width="100px;" alt=""/><br /><sub><b>arfy slowy</b></sub></a><br /><a href="#infra-slowy07" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/bellshade/cppSourceCode/commits?author=slowy07" title="Tests">⚠️</a> <a href="https://github.com/bellshade/cppSourceCode/commits?author=slowy07" title="Code">💻</a></td>
   </tr>
 </table>
 
