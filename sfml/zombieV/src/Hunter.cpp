@@ -97,7 +97,7 @@ void Hunter::update(GameWorld& world)
 
     m_coord = getBodyCoord();
 
-    _time += DT; // +1 state time event
+    _time += DT;
 
     if (_clicking && _state != RELOADING)
     {
@@ -108,9 +108,22 @@ void Hunter::update(GameWorld& world)
         else
             _changeState(IDLE);
     }
+
+    if (_state == RELOADING && _currentAnimation.isDone())
+    {
+        _currentWeapon->reload();
+        _state = IDLE;
+    }
+
+    _shootLight->radius = 0;
+    if (_state == SHOOTING)
+    {
+        bool wait = _lastState==SHOOTING;
+        _changeAnimation(_currentWeapon->getShootAnimation(), wait);
+        _shootLight->radius = 350;
+    }
     else if (_state == MOVING)
     {
-        // bool wait = !(_lastState)
         bool wait = !(_lastState==IDLE);
         _changeAnimation(_currentWeapon->getMoveAnimation(), wait);
     }
@@ -129,3 +142,12 @@ void Hunter::initialize()
 {
     HunterBase::init();
 }
+
+
+
+
+
+
+
+
+
