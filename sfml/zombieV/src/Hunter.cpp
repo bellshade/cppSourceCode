@@ -1,4 +1,9 @@
 #include "Hunter.hpp"
+#include "System/Config.hpp"
+#include "System/GameWorld.hpp"
+
+#include "System/Utils.hpp"
+
 #include <iostream>
 
 Hunter::Hunter() :
@@ -142,12 +147,3 @@ void Hunter::initialize()
 {
     HunterBase::init();
 }
-
-
-
-
-
-
-
-
-
