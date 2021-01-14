@@ -1,5 +1,8 @@
 #include "HunterBase.hpp"
+#include "System/Config.hpp"
 #include "System/GameWorld.hpp"
+
+#include "System/Utils.hpp"
 
 #include <iostream>
 
@@ -133,4 +136,3 @@ void HunterBase::hit(WorldEntity* entity, GameWorld* gameWorld)
 {
 
 }
-
